@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "ixtlan-web": "apps/ixtlan-web",
+    "ixtlan-web-e2e": "apps/ixtlan-web-e2e"
+  }
+}
