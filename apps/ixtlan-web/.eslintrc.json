@@ -23,7 +23,14 @@
     }
   ],
   "rules": {
-    "@next/next/no-html-link-for-pages": "off"
+    "@next/next/no-html-link-for-pages": "off",
+    "no-unused-vars": 1,
+    "no-case-declarations": 0,
+    "no-prototype-builtins": 1,
+    "react/prop-types": 0,
+    "react/no-deprecated": 0,
+    "react/jsx-key": 1,
+    "react-hooks/exhaustive-deps": 1
   },
   "env": {
     "jest": true

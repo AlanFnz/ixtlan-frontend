@@ -2,6 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "ixtlan-mobile": "apps/ixtlan-mobile",
+    "ixtlan-mobile-e2e": "apps/ixtlan-mobile-e2e",
     "ixtlan-web": "apps/ixtlan-web",
     "ixtlan-web-e2e": "apps/ixtlan-web-e2e"
   }
