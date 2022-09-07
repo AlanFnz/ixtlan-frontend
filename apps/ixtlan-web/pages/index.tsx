@@ -1,16 +1,16 @@
+import React from 'react';
 import styled from 'styled-components';
+import Header from '../components/Header';
 
 export function Index() {
   return (
-    <StyledPage>
-      <span>Ixtlan</span>
-    </StyledPage>
+    <Container>
+      <Header />
+    </Container>
   );
 }
 
-const StyledPage = styled.div`
-  .page {
-  }
-`;
+const Container = styled.div``;
 
 export default Index;
+
