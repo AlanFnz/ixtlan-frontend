@@ -1,33 +1,16 @@
 import React from 'react';
-import styled from 'styled-components';
 import mockNav from './mockNav';
+import { Container, Item } from './Navbar.styles';
+import { NavbarProps } from './Navbar.types';
 
 const Navbar = ({ items = mockNav }: NavbarProps) => {
   return (
     <Container>
       {items.map(item => (
-        <p key={item.number}>{item.displayName}</p>
+        <Item key={item.number}>{item.displayName}</Item>
       ))}
     </Container>
   );
 };
-
-type NavItems = {
-  number: number;
-  slug: string;
-  displayName: string;
-  asset: {
-    enabled: boolean;
-    src: string;
-  };
-}[];
-
-type NavbarProps = {
-  items: NavItems;
-};
-
-const Container = styled.div`
-  width: 100vw;
-`;
 
 export default Navbar;
