@@ -17,15 +17,6 @@ const mockNav = [
       src: '',
     },
   },
-  {
-    number: 3,
-    slug: 'contact',
-    displayName: 'Contact',
-    asset: {
-      enabled: false,
-      src: '',
-    },
-  },
 ];
 
 export default mockNav;
