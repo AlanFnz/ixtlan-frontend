@@ -10,8 +10,8 @@ const mockNav = [
   },
   {
     number: 2,
-    slug: 'contact',
-    displayName: 'Contact',
+    slug: 'gallery',
+    displayName: 'Gallery',
     asset: {
       enabled: false,
       src: '',
