@@ -11,4 +11,3 @@ export function Index() {
 const Container = styled.div``;
 
 export default Index;
-

@@ -1,8 +1,8 @@
 const mockNav = [
   {
     number: 1,
-    slug: 'home',
-    displayName: 'Home',
+    slug: 'music',
+    displayName: 'Music',
     asset: {
       enabled: false,
       src: '',
@@ -10,8 +10,26 @@ const mockNav = [
   },
   {
     number: 2,
-    slug: 'gallery',
-    displayName: 'Gallery',
+    slug: 'posters',
+    displayName: 'Posters',
+    asset: {
+      enabled: false,
+      src: '',
+    },
+  },
+  {
+    number: 3,
+    slug: 'experiments',
+    displayName: 'Experiments',
+    asset: {
+      enabled: false,
+      src: '',
+    },
+  },
+  {
+    number: 4,
+    slug: 'contact',
+    displayName: 'Contact',
     asset: {
       enabled: false,
       src: '',
